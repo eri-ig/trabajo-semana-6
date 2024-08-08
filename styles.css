@@ -2,11 +2,20 @@ body {
     background-color: rgb(255, 255, 165);
 }
 
-.image{
-    border: 5px solid green;
+.image {
+    border: 7px groove rgb(161, 247, 168);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.4);
+    padding: 15px;
     border-radius: 10px;
     height: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.image:hover {
+    transform: scale(1.05);
+    box-shadow: 15px 15px 45px rgba(0, 0, 0, 0.5);
+}
+
 
 .link-button {
     text-decoration: none;
