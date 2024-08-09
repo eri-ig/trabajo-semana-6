@@ -4,12 +4,7 @@
 }
 
 body {
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    margin: 0;
-    text-align: center; 
+    background-color: rgb(255, 255, 165);
 }
 
 h1{
@@ -21,8 +16,6 @@ h2{
     color: palevioletred;
     text-align: center;
 }
-
-p
 
 .image{
     border: 5px solid lightpink;
