@@ -1,14 +1,14 @@
 body {
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
+    justify-content: center; 
+    align-items: center;
     margin: 0;
-    text-align: center; /* Centra el texto dentro de los elementos */
+    text-align: center; 
 }
 
 .content {
-    max-width: 600px; /* Limita el ancho del contenido */
+    max-width: 600px; 
 }
 
 .header-container {
@@ -21,7 +21,7 @@ body {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 10px;
     border-radius: 5px;
 }
