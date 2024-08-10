@@ -1,14 +1,16 @@
 body {
     display: flex; 
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    align-items: flex-start; 
+    min-height: 100vh;
     margin: 0;
     background-color: rgb(241, 217, 233); 
     text-align: center;
+    padding: 20px; 
+    box-sizing: border-box; 
 }
 
-.container {
+.container, .content { 
     width: 80%;
     max-width: 800px;
     background-color: white;
@@ -18,6 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; 
+    margin-bottom: 20px; 
 }
 
 .image {
@@ -37,4 +40,3 @@ body {
     box-shadow: 2px 3px #888888;
     margin-top: 20px; 
 }
- 
