@@ -10,7 +10,7 @@ body {
     box-sizing: border-box; 
 }
 
-.container, .content { 
+.content { 
     width: 80%;
     max-width: 800px;
     background-color: white;
@@ -24,7 +24,6 @@ body {
 }
 
 .image {
-    border: 5px solid green;
     border-radius: 10px;
     height: 400px;
     margin-bottom: 20px; 
